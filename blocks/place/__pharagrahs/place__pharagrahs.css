@@ -1,0 +1,11 @@
+.place__pharagrahs {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+@media screen and (max-width: 768px) {
+    .place__pharagrahs {
+        gap: 25px;
+    }
+}

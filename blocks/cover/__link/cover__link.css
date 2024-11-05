@@ -1,0 +1,34 @@
+.cover__link {
+    text-decoration: none;
+    aspect-ratio: 8 / 5;
+    background-image: url(../../../vendor/images/trains__background.png);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.cover__link::before {
+    content: '';
+    width: 100%;
+    aspect-ratio: 8 / 5;
+    background-color: #2A2C2F;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.cover__link:hover:before {
+    opacity: 0.8;
+    transition: opacity 0.0s linear;
+}
+
+@media screen and (max-width: 320px) {
+    .cover__link {
+        gap: 16px;
+    }
+}

@@ -1,0 +1,22 @@
+.place__pharagrah {
+    margin: 0;
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    color: #FFFFFF;
+} 
+
+@media screen and (max-width: 768px) {
+    .place__pharagrah {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__pharagrah {
+        width: 100%;
+        max-width: 288px;
+    }
+}
